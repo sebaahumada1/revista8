@@ -1,0 +1,339 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color:rgba(0, 0, 0, 0.3) ;
+	background-image: url("https://fondosmil.com/fondo/35152.jpg");
+	
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: snow
+
+}
+.todo{
+	width: 90%;
+	max-width: 1000px;
+	margin:auto;
+	padding: 5px 0;
+	overflow: hidden;
+}
+
+.titulo{
+	
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	margin top: 70px;
+	flex-direction: column;
+	padding-top: 25px;
+	font-size: 100px;
+	font-family: sans-serif;
+}
+.subtitulo{
+	padding-top: 10px;
+	color: ;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	font-size: 16px;
+}
+div #contenedorMenu3{
+	display: flex;
+	flex-direction: row;
+	padding: 15px;
+
+
+	padding-right: 30px;
+	justify-content: space-around;
+}
+
+
+.menu{
+	display:flex;
+	font-size: 18px;
+	font-weight: 900;
+	
+
+
+}
+.menu1{
+	display:flex ;
+	border-right: 1px solid white;
+	width: 180px;
+
+	font-size: 20px;
+	font-weight: 900;
+	margin-left: 2%;
+	text-align:center ;
+	cursor: pointer;
+	color: black;
+	text-decoration:none ;
+	justify-content: space-evenly;
+
+
+}
+.menu2:hover{
+	color: #FA9393;
+
+}
+.h2{
+	color: ;
+	text-align: center;
+	align-items: center;
+	text-decoration: none ;
+
+}
+.destacados{
+	margin-top: 70px;
+}
+.divDpto{
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-evenly;
+
+}
+.dpto{
+	color: ;
+	text-decoration: none;
+	
+
+
+
+}
+.imagenmenu1{
+	padding-left: 80px;
+	margin-right: 5px;
+	display: none;
+	
+	
+}
+
+
+.galeria{
+	margin-top: 15px;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+
+	justify-content: space-evenly;
+}
+.nombre{
+	padding: 20px;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: #03FEFE;
+	animation: rotarColor infinite 2s;
+}
+@keyframes rotarColor{
+	from{
+	filter: hue-rotate(0deg)
+}
+
+	to{
+		filter: hue-rotate(360deg);
+	}
+}
+.texto{
+	
+	font-family: unset;
+	font-size: 18px;
+	font-weight: 900;
+	text-align: center;
+	background-color: black;
+	box-shadow: white 5px 0px 20px 0;
+	color: #03FEFE;
+	padding: 10px;
+
+	
+}
+.somos{
+	margin: 20px;
+
+	background-color: ;
+	padding: 30px;
+	color: ;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+.som{
+	padding: 30px;
+	margin-top: 30px;
+	display: flex;
+	text-align:center ;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.texto2{
+	font-family: unset;
+	font-size: 18px;
+	font-weight: 900;
+	text-align: center;
+	background-color: black;
+	box-shadow: white 5px 0px 20px 0;
+	color: #03FEFE;
+	padding: 10px;
+
+}
+
+
+
+.contenidoF{
+	width: 200px;
+	height: 200px;
+	display: flex;
+	margin-left: 23%;
+	margin-top: 5%;
+	align-items: center;
+	box-sizing: border-box;
+
+
+}
+#input1{
+	box-sizing: border-box;
+	padding: 10px 20px;
+	margin-bottom: 5px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.2);
+	color: white;
+	border: solid 1px white;
+	cursor: pointer;
+
+
+
+}
+.contactanos{
+	padding-top: 20px;
+	display: flex;
+	font-size: 18px;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	color: white;
+}
+
+.tearea1{
+	min-width: 455px;
+	max-width: 455px;
+	min-height: 250px;
+	max-height: 250px;
+}
+#boton{
+	border-bottom-style: flat;
+}
+
+
+
+
+
+@media screen and (max-width: 500px){
+
+		.menu22{
+			color:white;
+			padding-top: 0px;
+			border-right: solid white 2px;
+		}
+
+		.contenedorMenu2{
+
+			display: flex;
+			text-align: center;
+			align-items: center;
+			justify-content: center;
+			flex-direction: row;
+			width: 100%;
+
+			
+		}
+		#menu3{
+			font-size: 10px;
+		}
+		.menuOn{
+			transform: translateX(0%);
+		}
+		}
+		.contenidofe{
+			width: 100%;
+			display: flex-start;
+			padding: 40px;
+			margin-top: 10%;
+			margin-left: 1%;
+			border: none;
+			margin-top: 20px;
+
+
+		}
+		#Contactanos1{
+
+			padding: 30px;
+		}
+
+		
+
+
+		#tearea{
+			min-width: 265px;
+			max-width: 265px;
+		}
+		.input{
+			width: 68%;
+		}
+
+		#otrai {
+		
+		display: block;
+		margin-left: 60%;
+		margin-top:2% ;
+		width: 40%;
+		height: 2%;
+		
+
+	}
+
+		.menu{
+				display: flex;
+				flex-direction: column;
+				
+				margin-top: 1%;
+		}
+		.titulo{
+	
+		display: flex;
+		text-align: center;
+		align-items: center;
+		justify-content: center;
+		margin top: 30px;
+		flex-direction: column;
+		padding-top: px;
+		font-size: 50px;
+		font-family: sans-serif;
+
+	}
+	.texto{
+		padding: 10px;
+
+	}
+	.texto2{
+		padding: 10px;
+	}
+	.subtitulo{
+		padding-top: 10px;
+		color: ;
+		display: flex;
+		text-align: center;
+		align-items: center;
+		justify-content: center;
+		font-size: 12px;		
+	}
+
+
+}
+}
